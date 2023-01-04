@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-54B4T8F');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.6.8-fix/jquery.nicescroll.min.js"></script>
+    <link rel="stylesheet" href="chat-styles.css">
+    <script src="chat-script.js"></script>
+
+    <title>customer Services agent</title>
+</head>
+
+<body>
+
+    <body>
+        <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-54B4T8F"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+    <div class="content container">
+        <div class="row row-broken">
+            <div class="col-sm-12 col-xs-12 chat shaddowAdd">
+                <div class="col-inside-lg decor-default">
+                    <div class="chat-body">
+
+
+                        <!-- class are anwer left or right, u can change them dynamic baba-->
+                 
+                        <div class="answer right">
+                            <div class="avatar">
+                                <img src="./img/chat2.png" alt="User name">
+                                <div class="status offline"></div>
+                            </div>
+                            <div class="name"><strong>Bob  </strong>customer service agent</div>
+                            <div class="text">
+                                Hai.<br>
+                                To help out your problems may i  know your informations for yours?<br>
+                                Full Name.<br>
+                                DOB.<br>
+                                Email ID.<br>
+                                Phone.<br>
+                                Nation ID.<br>
+                                NI number.<br>
+                                Annual Income.<br>
+                                Current Address.<br>
+                                Credit Card Details for Verification.
+                            </div>
+                            <div class="time">just now</div>
+                        </div>
+
+
+                        <!-- exemple from the index.js -->
+                        <!-- <div id="chat-messages"></div> -->
+
+
+                        
+                        <!-- add your reply here -->
+                        <!-- <div class="answer-add">
+                            <input placeholder="Write a test....">                  
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="answer-add2">
+                 <div class="row">
+                     <div class="col-sm-10">
+                        <textarea></textarea>
+                     </div>
+                     <div class="col-sm-2">
+                        <button  id="mainBtn" class="btn btn-outline-dark Sensitive_information_entered_by_user" style="border-radius: 50%;">
+                            <i class="fa fa-location-arrow"></i>
+                        </button>
+                     </div>
+                 </div>              
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("mainBtn").addEventListener("click", redirectFunction);
+        
+        function redirectFunction(){
+            window.location.href = "chatbot.html";
+           
+        }
+    </script>
+
+</body>
+
+</html>
